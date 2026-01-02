@@ -19,12 +19,12 @@ export function Footer() {
       { name: 'About Us', href: '#about' },
       { name: 'Our Team', href: '#team' },
       { name: 'Industry Segments', href: '#segments' },
-      { name: 'Contact', href: '#contact' },
+      { name: 'Contact', href: '#cta' },
     ],
     contact: [
-      { name: 'info@ltm-manufacturing.com', href: 'mailto:info@ltm-manufacturing.com' },
-      { name: '+1 (555) 123-4567', href: 'tel:+15551234567' },
-      { name: '123 Industrial Ave, City, ST 12345', href: '#' },
+      { name: 'info@lankatechmanu.com', href: 'mailto:info@lankatechmanu.com' },
+      { name: '+94 77 052 6589', href: 'tel:+94770526589' },
+      { name: 'Kotugoda, Sri Lanka, Western', href: '#' },
     ],
   };
 
@@ -63,7 +63,7 @@ export function Footer() {
                   <span className="text-xs text-gray-600">T</span>
                 </div>
                 <div className="w-8 h-8 bg-gray-100 rounded-full flex items-center justify-center hover:bg-red-50 transition-colors cursor-pointer">
-                  <span className="text-xs text-gray-600">E</span>
+                  <span className="text-xs text-gray-600">M</span>
                 </div>
               </div>
             </motion.div>
@@ -154,7 +154,7 @@ export function Footer() {
             <div className="text-sm text-gray-600">
               © {currentYear} LTM Manufacturing. All rights reserved.
             </div>
-            <div className="flex space-x-6 text-sm">
+            {/* <div className="flex space-x-6 text-sm">
               <Link href="#" className="text-gray-600 hover:text-red-600 transition-colors">
                 Privacy Policy
               </Link>
@@ -164,7 +164,7 @@ export function Footer() {
               <Link href="#" className="text-gray-600 hover:text-red-600 transition-colors">
                 Sitemap
               </Link>
-            </div>
+            </div> */}
           </div>
         </motion.div>
       </div>

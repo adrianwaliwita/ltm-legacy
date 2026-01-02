@@ -39,7 +39,7 @@ export function AboutSection() {
           >
             <div
               className={cn(
-                "group cursor-pointer overflow-hidden relative card rounded-md shadow-xl mx-auto flex flex-col justify-end p-4",
+                "group overflow-hidden relative card rounded-md shadow-xl mx-auto flex flex-col justify-end p-4",
                 "aspect-square hover:scale-[1.02] transition-transform duration-500 ease-out"
               )}
             >

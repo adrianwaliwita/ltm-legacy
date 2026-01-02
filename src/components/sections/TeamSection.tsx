@@ -26,9 +26,7 @@ export function TeamSection() {
 
   // Team images from the public/team directory
   const teamImages = [
-    { img: '/team/WhatsApp Image 2025-08-27 at 10.30.12.jpeg', alt: 'Team member 1' },
     { img: '/team/WhatsApp Image 2025-09-19 at 10.56.45.jpeg', alt: 'Team member 4' },
-        { img: '/team/WhatsApp Image 2025-08-28 at 03.49.56.jpeg', alt: 'Team member 2' },
 
     { img: '/team/WhatsApp Image 2025-09-19 at 10.56.46.jpeg', alt: 'Team member 5' },
     { img: '/team/WhatsApp Image 2025-09-19 at 10.56.47.jpeg', alt: 'Team member 6' },

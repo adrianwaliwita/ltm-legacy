@@ -23,25 +23,27 @@ export const BackgroundBeams = ({ className }: { className?: string }) => {
         className
       )}
     >
-      <style jsx>{`
-        @keyframes wave {
-          0% { 
-            transform: translateY(0px);
+      <style dangerouslySetInnerHTML={{
+        __html: `
+          @keyframes wave {
+            0% { 
+              transform: translateY(0px);
+            }
+            25% { 
+              transform: translateY(-8px);
+            }
+            50% { 
+              transform: translateY(0px);
+            }
+            75% { 
+              transform: translateY(8px);
+            }
+            100% { 
+              transform: translateY(0px);
+            }
           }
-          25% { 
-            transform: translateY(-8px);
-          }
-          50% { 
-            transform: translateY(0px);
-          }
-          75% { 
-            transform: translateY(8px);
-          }
-          100% { 
-            transform: translateY(0px);
-          }
-        }
-      `}</style>
+        `
+      }} />
       <svg
         className="absolute inset-0 h-full w-full"
         width="100%"

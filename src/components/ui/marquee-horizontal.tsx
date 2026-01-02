@@ -7,7 +7,7 @@ const ItemCard = ({ img, alt }: { img: string; alt?: string }) => {
   return (
     <figure
       className={cn(
-        "relative w-[50vw] h-[50vw] md:w-[20vw] md:h-[20vw] cursor-pointer overflow-hidden rounded-xl",
+        "relative w-[50vw] h-[50vw] md:w-[20vw] md:h-[20vw] overflow-hidden rounded-xl",
         "hover:scale-105 transition-transform duration-300"
       )}
     >
